@@ -34,9 +34,7 @@
                     <li class="dropdown">
                         <a href="#" class="item3 wow fadeInDown" data-wow-delay="1.3s">
                             การแข่งขันของครู
-                            <button class="dropdown-btn">
-                                <i class="fa fa-angle-right"></i>
-                            </button>
+                            
                         </a>
                         <ul>
                             <li>
@@ -49,9 +47,7 @@
                     <li class="dropdown">
                         <a href="#" class="item4 wow fadeInDown" data-wow-delay="1.5s">
                             การแข่งขันของนักเรียน
-                            <button class="dropdown-btn">
-                                <i class="fa fa-angle-right"></i>
-                            </button>
+                            
                         </a>
                         <ul>
                             <li>
@@ -85,9 +81,7 @@
                     <li class="dropdown">
                         <a href="#" class="item2 wow fadeInDown" data-wow-delay="1.7s">
                             เกี่ยวกับงาน
-                            <button class="dropdown-btn">
-                                <i class="fa fa-angle-right"></i>
-                            </button>
+                           
                         </a>
                         <ul>
                             <li>
