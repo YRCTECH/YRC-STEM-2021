@@ -1,0 +1,246 @@
+body {
+  color: var(--thm-black);
+  margin: 0;
+    
+}
+
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 700;
+    margin: 0;
+  }
+  
+p{
+    font-size: 16px;
+}
+
+.footer-txt{
+  color: #848484 !important;
+  
+}
+
+
+  
+.footer-btn {
+    background-color: #c81451;
+    color: #fff;
+}
+
+  
+.footer-btn:hover {
+    background-color: var(--thm-black);
+    color: #ffffff;
+}
+  
+.card {
+    border: solid 0px white;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+  
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: black;
+}
+  
+.search {
+    border: solid 1px white;
+    border-radius: 100px;
+    transition: 0.2s;
+    border: none;
+}
+  
+.search:focus {
+    transform: scale(1.03);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+}
+  
+.block-title-two {
+    font-family: "IBMPlexSansThai", sans-serif;
+}
+  
+.radius-banner {
+    border-radius: 15px;
+}
+.radius-button {
+    border-radius: 30px;
+}
+.header-yrc {
+    background: rgb(240, 135, 227);
+    background: linear-gradient(
+      90deg,
+      rgba(240, 135, 227, 1) 0%,
+      rgba(246, 98, 134, 1) 100%
+    );
+    border-radius: 15px;
+}
+.bg-yrc {
+    background-color: #e91e63;
+}
+.bg-director {
+    background-color: #ef4982;
+}
+.f-pink {
+    color: #e91e63;
+}
+.f-pink:hover {
+    color: #e91e63;
+}
+.center-logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 70px;
+    transition: 0.2s;
+    z-index: 9;
+    top: 3px;
+}
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.bg-card {
+  background-color: #fe1b68;
+}
+.border-n {
+    border: none;
+}
+.line {
+    background-color: #e91e63;
+    color: #e91e63;
+    height: 5px;
+    width: 100%;
+}
+.text1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text2 {
+    flex-grow: 0;
+}
+.line2 {
+    flex-grow: 1;
+    height: 4px;
+    background-color: #e91e63;
+}
+  
+  /* custom scrollbar */
+::-webkit-scrollbar {
+    width: 20px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
+
+.header_schedule{
+  background: rgb(240, 135, 227);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 135, 227, 1) 0%,
+    rgba(246, 98, 134, 1) 100%
+  );
+  border-radius: 20px;
+  height: auto;
+  color: white;
+}
+.header_schedule_detail{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.bg-gradient{
+    background: rgb(240, 135, 227);
+    background: linear-gradient(
+      90deg,
+      rgba(240, 135, 227, 1) 0%,
+      rgba(246, 98, 134, 1) 100%
+    );
+    color: white;
+}
+.width_unset{
+  width: unset !important;
+}
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+.btn-project{
+  background: rgb(240, 135, 227);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 135, 227, 1) 0%,
+    rgba(246, 98, 134, 1) 100%
+  );
+  border-radius: 30px !important;
+  color: white;
+  border-color: none !important;
+}
+.font-bold{
+    font-weight: bold !important;
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+  
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.videoWrapper2 {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+  
+.videoWrapper2 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+}
+.radius-time{
+    border-radius: 30px !important;
+}
+.f-gradient{
+    background: linear-gradient(
+        90deg,
+        rgba(240, 135, 227, 1) 0%,
+        rgba(246, 98, 134, 1) 100%
+      ) !important; 
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
